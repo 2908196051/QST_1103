@@ -18,7 +18,7 @@ public class DifferentFormat {
 	@SuppressWarnings("resource")
 	public static void main(String[] args){
 		Scanner scanner = new Scanner(System.in);
-		Locale locale = Locale.US; 
+		Locale locale = Locale.US; //语言信息美国化
 		SimpleDateFormat inputFormat = new SimpleDateFormat("dd/MMM/yyyy:HH:mm:ss", locale); //修改格式
 		while (scanner.hasNext()){
 			String line = scanner.nextLine();
